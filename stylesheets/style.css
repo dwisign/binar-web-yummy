@@ -1,0 +1,192 @@
+/*GLOBAL STYLE*/
+body p, body li {
+  font-family: 'Poppins', sans-serif;
+  color: #4f4f5a;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.red-brand {
+  color: #ce1212;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fancy-title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.small-title {
+  color: #7f7f90;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.small-btn {
+  font-size: 14px;
+  padding: 8px 18px;
+}
+
+/*END GLOBAL STYLE*/
+/*NAVBAR*/
+.navbar--custom {
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+  position: fixed;
+  width: 100%;
+}
+.navbar--custom .logo {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.navbar--custom .logo h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.navbar--custom .logo h1 span {
+  color: #ce1212;
+}
+.navbar--custom .list-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  justify-content: center;
+  gap: 32px;
+}
+.navbar--custom .list-menu .item {
+  font-weight: 600;
+}
+.navbar--custom .list-menu .item a {
+  color: #7f7f90;
+}
+.navbar--custom .cta-button {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  justify-content: end;
+}
+.navbar--custom .cta-button .btn {
+  font-size: 14px;
+  padding: 8px 18px;
+}
+
+@media (max-width: 991px) {
+  .navbar--custom .list-menu {
+    display: none;
+  }
+}
+/*END NAVBAR*/
+/*SECTION-HERO*/
+#section--hero {
+  background: #eeeeee;
+  padding: 155px 0px 65px;
+}
+#section--hero h1 {
+  margin-bottom: 20px;
+}
+#section--hero .cta-button-hero {
+  margin-top: 20px;
+}
+#section--hero .cta-button-hero .btn {
+  padding: 10px 30px;
+}
+#section--hero .cta-button-hero .bi {
+  font-size: 24px;
+  margin: 0px 10px 0px 30px;
+}
+
+/*END SECTION HERO*/
+/*SECTION ABOUT*/
+#section--about {
+  padding: 65px 0px;
+}
+#section--about .image-about-left {
+  width: 100%;
+  height: 675px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*END SECTION ABOUT*/
+/*SECTION-WHY*/
+#section--why {
+  padding: 65px 0px;
+  background: #eeeeee;
+}
+#section--why .red-box {
+  background-color: #ce1212;
+  padding: 30px;
+}
+#section--why .red-box h1 {
+  color: #fff;
+  font-weight: 700;
+}
+#section--why .red-box p {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#section--why .red-box .cta-button {
+  text-align: center;
+}
+#section--why .white-box {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+#section--why .white-box .icon {
+  width: 64px;
+  height: 64px;
+  background-color: #fae6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px;
+  color: #ce1212;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+#section--why .white-box h5 {
+  margin-bottom: 30px;
+}
+
+/*END SECTION-WHY*/
+/*PARALLAX*/
+#section--parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stats-bg.jpg");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section--parallax .count-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+#section--parallax .count-box h1 {
+  color: #fff;
+  font-weight: 700;
+}
+#section--parallax .count-box p {
+  color: #fff;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/*END PARALLAX*/
